@@ -2,6 +2,8 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/lib,s
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/app,system/app)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/priv-app,system/priv-app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/framework,system/framework)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/lib64,system/lib64)
