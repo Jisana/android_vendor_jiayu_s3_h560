@@ -1,0 +1,6 @@
+#!/system/bin/sh
+# call userinit.sh if present in /data/local
+
+## this line enables fast charge | 1 for ON | 0 for OFF
+echo 0 > /sys/kernel/charge_levels/quick_charge_enable
+
