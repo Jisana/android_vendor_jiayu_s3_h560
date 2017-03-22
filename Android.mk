@@ -31,4 +31,32 @@ LOCAL_MULTILIB = 32
 LOCAL_SRC_FILES_32 = lib/libdpframework.so
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcam2halsensor
+LOCAL_SRC_FILES_64 := lib64/libcam2halsensor.so
+LOCAL_SRC_FILES_32 := lib/libcam2halsensor.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libcameracustom
+LOCAL_SRC_FILES_64 := lib64/libcameracustom.so
+LOCAL_SRC_FILES_32 := lib/libcameracustom.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+endif
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libmtkcamera_client
+LOCAL_SRC_FILES_64 := lib64/libmtkcamera_client.so
+LOCAL_SRC_FILES_32 := lib/libmtkcamera_client.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
 endif
