@@ -92,6 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/meizu/m2note/proprietary/system/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
     vendor/meizu/m2note/proprietary/system/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+    vendor/meizu/m2note/proprietary/system/lib64/libh264enc_sa.ca7.so:system/lib64/libh264enc_sa.ca7.so \
     vendor/meizu/m2note/proprietary/system/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
     vendor/meizu/m2note/proprietary/system/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
     vendor/meizu/m2note/proprietary/system/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
@@ -210,8 +211,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/meizu/m2note/proprietary/system/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
     vendor/meizu/m2note/proprietary/system/lib/libui_ext.so:system/lib/libui_ext.so \
+    vendor/meizu/m2note/proprietary/system/lib/libuvtswenc_sa.ca7.android.so:system/lib/libuvtswenc_sa.ca7.android.so \
     vendor/meizu/m2note/proprietary/system/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
     vendor/meizu/m2note/proprietary/system/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
+    vendor/meizu/m2note/proprietary/system/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
     vendor/meizu/m2note/proprietary/system/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
     vendor/meizu/m2note/proprietary/system/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/meizu/m2note/proprietary/system/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
