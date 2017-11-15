@@ -42,19 +42,35 @@ include $(BUILD_PREBUILT)
 
 
 include $(CLEAR_VARS)
-LOCAL_MODULE = libmtkcam_fwkutils
+LOCAL_MODULE = liui_ext
 LOCAL_MODULE_CLASS = SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX = .so
 LOCAL_MULTILIB = 64
-LOCAL_SRC_FILES_64 = vendor/lib64/libmtkcam_fwkutils.so
+LOCAL_SRC_FILES_64 = vendor/lib64/libui_ext.so
 include $(BUILD_PREBUILT)
  
 include $(CLEAR_VARS)
-LOCAL_MODULE = libmtkcam_fwkutils
+LOCAL_MODULE = libui_ext
 LOCAL_MODULE_CLASS = SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX = .so
 LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 = vendor/lib/libmtkcam_fwkutils.so
+LOCAL_SRC_FILES_32 = vendor/lib/libui_ext.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE = libgralloc_extra
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_MULTILIB = 64
+LOCAL_SRC_FILES_64 = vendor/lib64/libgralloc_extra.so
+include $(BUILD_PREBUILT)
+ 
+include $(CLEAR_VARS)
+LOCAL_MODULE = libgralloc_extra
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_MULTILIB = 32
+LOCAL_SRC_FILES_32 = vendor/lib/libgralloc_extra.so
 include $(BUILD_PREBUILT)
 
 
